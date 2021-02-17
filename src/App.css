@@ -1,0 +1,125 @@
+body {
+  background: #1878cc;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main-section {
+  max-width: 700px;
+  height: 450px;
+  margin: 30px auto;
+  
+}
+
+.clock-holder {
+  border:1px solid black;
+  position: relative;
+  border-radius: 8px;
+  background: linear-gradient(#54d1b6, #5fa0d9);
+  height: 450px;
+}
+
+.stopwatch {
+  padding: 60px 0px;
+  text-align: center;
+  
+}
+
+.stopwatch span {
+ 
+  background:#1ca5d6;
+  color: #fff;
+  display: inline-block;
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 8px;
+  width: 70px;
+} 
+
+
+.stopwatch .stopwatch-btn {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 30px auto;
+  outline: none;
+  cursor: pointer;
+  height: 55px;
+  width: 120px;
+  justify-content: space-between;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.stopwatch .stopwatch-btn-red {
+  border-radius: 8px;
+  color: #999999;
+  font-weight: 700;
+  background-color: #f2cbcb;
+  border:none;
+}
+
+.stopwatch .stopwatch-btn-yellow {
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: #fcffc2;
+  border: none;
+  color: #999999;
+}
+.stopwatch .stopwatch-btn-green {
+  border-radius: 8px;
+  outline: none;
+  font-weight: 700;
+  background-color: #bff5cd;
+  border:none;
+  color: #999999;
+}
+
+.stopwatch .stopwatch-btn-orange {
+  border-radius: 8px;
+  outline: none;
+  font-weight: 700;
+  background-color: #f7e29c;
+  border: none;
+  color:#999999;
+}
+.stopwatch .stopwatch-btn-red:hover {
+  background-color: #e3595b;
+  color: black;
+  /* transition: background-color 1.0s ease-in; */
+  color:black;
+}
+
+.stopwatch .stopwatch-btn-green:hover {
+  background: #7af090;
+  /* transition: background-color 1.0s ease-in; */
+  color:black;
+}
+
+.stopwatch .stopwatch-btn-yellow:hover {
+background-color: #e8dd0e;
+  /* transition: background-color 1.0s ease-in; */
+  outline: none;
+  color:black;
+
+}
+
+.stopwatch .stopwatch-btn-orange:hover {
+  background-color: orange;
+  color:black;
+    /* transition: background-color 1.0s ease-in; */
+    outline: none;
+  }
+
+
+
+
+
